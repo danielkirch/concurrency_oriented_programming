@@ -10,10 +10,12 @@ Elixir
 - [getting started](https://elixir-lang.org/getting-started/introduction.html)
 - Elixir package manager: https://hex.pm/
 - Documentation: https://hexdocs.pm/elixir/Kernel.html
+- HoneyPot Documentary: https://www.youtube.com/watch?v=lxYFOM3UJzo
 
 Erlang
 
 - Documentation: https://www.erlang.org/doc/
+- Erlang the movie: https://www.youtube.com/watch?v=xrIjfIjssLE
 
 Other
 
