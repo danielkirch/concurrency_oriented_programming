@@ -14,10 +14,11 @@ The application reads a file using a name passed in the command line, the follow
 
 Here's some rules for these commands:
 
-PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST.
-The origin (0,0) is the SOUTH WEST most corner.
-All commands are ignored until a valid PLACE is made.
-MOVE will move the toy robot one unit forward in the direction it is currently facing.
-LEFT and RIGHT rotates the robot 90 degrees in the specified direction without changing the position of the robot.
-REPORT announces the X,Y and F of the robot.
+- PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST.
+- The origin (0,0) is the SOUTH WEST most corner.
+- All commands are ignored until a valid PLACE is made.
+- MOVE will move the toy robot one unit forward in the direction it is currently facing.
+- LEFT and RIGHT rotates the robot 90 degrees in the specified direction without changing the position of the robot.
+- REPORT announces the X,Y and F of the robot.
+
 The file is assumed to have ASCII encoding. It is assumed that the PLACE command has only one space, that is PLACE 1, 2, NORTH is an invalid command. All commands must be in upcase, all lower and mixed case commands will be ignored.
