@@ -6,11 +6,12 @@ The application is a simulation of a toy robot moving on a square tabletop, of d
 
 The application reads a file using a name passed in the command line, the following commands are valid:
 
-PLACE X,Y,F
-MOVE
-LEFT
-RIGHT
-REPORT
+- PLACE X,Y,F
+- MOVE
+- LEFT
+- RIGHT
+- REPORT
+
 Here's some rules for these commands:
 
 PLACE will put the toy robot on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST.
